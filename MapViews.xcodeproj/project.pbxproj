@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AB50A54F1D6B782600CB0DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50A54E1D6B782600CB0DCC /* AppDelegate.swift */; };
 		AB50A5511D6B782600CB0DCC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50A5501D6B782600CB0DCC /* FirstViewController.swift */; };
-		AB50A5531D6B782600CB0DCC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50A5521D6B782600CB0DCC /* SecondViewController.swift */; };
+		AB50A5531D6B782600CB0DCC /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50A5521D6B782600CB0DCC /* LocationVC.swift */; };
 		AB50A5561D6B782600CB0DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB50A5541D6B782600CB0DCC /* Main.storyboard */; };
 		AB50A5581D6B782600CB0DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB50A5571D6B782600CB0DCC /* Assets.xcassets */; };
 		AB50A55B1D6B782600CB0DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB50A5591D6B782600CB0DCC /* LaunchScreen.storyboard */; };
+		AB50A5631D6CD86000CB0DCC /* MapAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB50A5621D6CD86000CB0DCC /* MapAnnotations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB50A54B1D6B782600CB0DCC /* MapViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB50A54E1D6B782600CB0DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB50A5501D6B782600CB0DCC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		AB50A5521D6B782600CB0DCC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AB50A5521D6B782600CB0DCC /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		AB50A5551D6B782600CB0DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB50A5571D6B782600CB0DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB50A55A1D6B782600CB0DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB50A55C1D6B782600CB0DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB50A5621D6CD86000CB0DCC /* MapAnnotations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				AB50A54E1D6B782600CB0DCC /* AppDelegate.swift */,
 				AB50A5501D6B782600CB0DCC /* FirstViewController.swift */,
-				AB50A5521D6B782600CB0DCC /* SecondViewController.swift */,
+				AB50A5521D6B782600CB0DCC /* LocationVC.swift */,
 				AB50A5541D6B782600CB0DCC /* Main.storyboard */,
 				AB50A5571D6B782600CB0DCC /* Assets.xcassets */,
 				AB50A5591D6B782600CB0DCC /* LaunchScreen.storyboard */,
 				AB50A55C1D6B782600CB0DCC /* Info.plist */,
+				AB50A5621D6CD86000CB0DCC /* MapAnnotations.swift */,
 			);
 			path = MapViews;
 			sourceTree = "<group>";
@@ -139,9 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB50A5531D6B782600CB0DCC /* SecondViewController.swift in Sources */,
+				AB50A5531D6B782600CB0DCC /* LocationVC.swift in Sources */,
 				AB50A54F1D6B782600CB0DCC /* AppDelegate.swift in Sources */,
 				AB50A5511D6B782600CB0DCC /* FirstViewController.swift in Sources */,
+				AB50A5631D6CD86000CB0DCC /* MapAnnotations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +297,7 @@
 				AB50A5611D6B782600CB0DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
